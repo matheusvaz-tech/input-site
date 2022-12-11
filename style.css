@@ -10,10 +10,14 @@ body {
   background: #18161f;
   padding: 1.5rem 4.5rem;
 
+  height: 100vh;
+
   font-family: "Space Grotesk", sans-serif;
 
   background-image: url(./images/effect-blur.svg);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 header {
@@ -60,6 +64,10 @@ main {
   align-items: center;
 
   column-gap: 10rem;
+}
+
+.main-content {
+  max-width: 680px;
 }
 
 .main-content div {
