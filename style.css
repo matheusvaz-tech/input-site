@@ -59,12 +59,13 @@ button {
 
 main {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+
+  column-gap: 10rem;
 }
 
 .main-content {
-  max-width: 680px;
+  max-width: 640px;
 }
 
 .main-content div {
